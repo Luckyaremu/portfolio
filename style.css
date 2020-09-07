@@ -121,7 +121,6 @@ img{
     z-index: var(--z-fixed);
     background-color: darkgray;
 }
-
 .nav{
     height: var(--header-heigt);
     display: flex;
@@ -303,12 +302,24 @@ img{
     cursor: pointer;
     backdrop-filter: blur(10px);
     transition: .3s;
+    -webkit-border-radius: .5rem;
+    -moz-border-radius: .5rem;
+    -ms-border-radius: .5rem;
+    -o-border-radius: .5rem;
+}
+.sub-project_link{
+    position: absolute;
+    top: 0;
+    color: black;
+    font-size: 15px;
 }
 .project_img:hover .project_link {
     bottom: 0;
 }
 .project_link-name {
-    color: darkgrey;
+    color: orangered;
+    font-size: var(--mb-4);
+    cursor: pointer;
 }
 .contact_container{
     row-gap: 2rem;
