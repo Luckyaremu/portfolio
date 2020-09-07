@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Srisakdi:wght@400;700&display=swap");
-
 :root {
     --header-heigt: 3rem;
     --font-medium: 500;
@@ -13,7 +12,7 @@
 }
 
 :root {
-    --body-font: 'Srisakdi' sans-serif;
+    --body-font: 'Kufam', cursive;
     --big-font-size: 6.25rem;
     --h2-font-size: 1.25rem;
     --normal-font-size: .938rem;
