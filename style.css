@@ -367,18 +367,23 @@ img{
     border-radius: .5rem ;
 }
 .contact_button{
-    display: block;
     background-color: var(--first-color);
     color: var(--white-colo);
-    padding: .75rem 2.5rem;
+    padding: 0.75rem 2.5rem;
     margin-left: auto;
     border-radius: .5rem;
     border: none;
     outline: none;
     font-size: var(--normal-font-size);
     cursor: pointer;
+    -webkit-border-radius: .5rem;
+    -moz-border-radius: .5rem;
+    -ms-border-radius: .5rem;
+    -o-border-radius: .5rem;
 }
-
+.contact_button:hover{
+    background-color: orangered;
+}
 .footer_section{
     background-color: var(--dark-color);
 }
@@ -465,9 +470,12 @@ img{
         grid-template-rows: repeat(2, 1fr);
         column-gap: 2rem;
     }
+    .contact_section{
+        text-align: center;
+    }
     .contact_container{
-        grid-template-columns: repeat(2, 1fr);
         justify-content: center;
+        grid-template-columns: repeat(2, 1fr);
     }
     .contact_form{
         width: 380px;
@@ -507,5 +515,8 @@ img{
 }
 .project_section{
     padding-bottom: var(--mb-4);
+}
+.contact_section{
+    text-align: center;
 }
 }
