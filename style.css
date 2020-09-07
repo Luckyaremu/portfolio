@@ -286,6 +286,9 @@ img{
     position: relative;
     overflow: hidden;
 }
+.pro_img{
+    height: 50%;
+}
 .project_img img{
     border-radius: .5rem;
 }
