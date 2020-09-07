@@ -317,8 +317,9 @@ img{
 .sub-project_link{
     position: absolute;
     top: 0;
-    color: var(--first-color);
-    font-size: 15px;
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
 }
 .project_img:hover .project_link {
     bottom: 0;
