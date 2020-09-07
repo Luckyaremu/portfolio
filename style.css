@@ -224,7 +224,7 @@ img{
 }
 .about_section{
     background-image: linear-gradient( gray, darkgray, white);
-    -webkit-clip-path: polygon(0 4%, 100% 0%, 100% 78%, 0% 100%);
+    -webkit-clip-path: polygon(0 4%, 100% 0%, 100% 92%, 0% 100%);;
 }
 .about_container{
     justify-items: center;
