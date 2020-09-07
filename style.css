@@ -219,6 +219,7 @@ img{
     width: 35%;
     height: 100%;
     top: 70px;
+    clip-path: polygon(35% 0%, 100% 0%, 75% 100%, 0% 100%);
 }
 .about_container{
     justify-items: center;
@@ -230,13 +231,8 @@ img{
     justify-content: center;
     width: 120px;
     height: 150px;
-    background-color: var(--first-color);
-    border-radius: 50%;
     overflow: hidden;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
 }
 .about_img img {
     width: 100px;
@@ -471,5 +467,8 @@ img{
     }
     .home_scroll{
         padding-top: 50px;
+    }
+    .l-header{
+        font-size: 20px;
     }
 }
