@@ -182,7 +182,7 @@ img{
     position: relative;
     background-image: linear-gradient( gray, darkgray, blue);
     overflow: hidden;
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 65%, 0% 100%);
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 81%, 0% 100%);
 }
 .home_container{
     height: calc(100hv - var(--header-height));
@@ -220,11 +220,11 @@ img{
     width: 35%;
     height: 100%;
     top: 70px;
-    clip-path: polygon(35% 0%, 100% 0%, 75% 100%, 0% 100%);
+    -webkit-clip-path: polygon(35% 0%, 100% 0%, 75% 100%, 0% 100%);
 }
 .about_section{
     background-image: linear-gradient( gray, darkgray, white);
-    -webkit-clip-path: polygon(0 5%, 100% 0, 100% 98%, 0% 100%);
+    -webkit-clip-path: polygon(0 3%, 100% 0, 100% 98%, 0% 100%);;
 }
 .about_container{
     justify-items: center;
