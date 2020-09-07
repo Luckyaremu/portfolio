@@ -275,7 +275,7 @@ img{
 }
 .skills_name{
     display: inline;
-    font-size: small;
+    font-size: 25px;
     margin-right: var(--mb-2);
     padding: .25rem .5rem;
     border-radius: .25rem;
