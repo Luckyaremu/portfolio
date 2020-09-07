@@ -488,6 +488,7 @@ img{
     }
     .project_img{
        border: var(--mb-3);
+       padding-bottom: var(--mb-1);
 }
 .project_section{
     padding-bottom: var(--mb-4);
