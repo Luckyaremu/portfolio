@@ -55,6 +55,7 @@ body{
     font-weight: var(--font-medium);
     color: var(--text-color);
     line-height: 1.6;
+    background-color:rgb(248, 230, 250);
 }
 
 h1,h2,p{
@@ -179,8 +180,9 @@ img{
 
 .home{
     position: relative;
-    background-image: linear-gradient(gray, darkgray, blue);
+    background-image: linear-gradient( gray, darkgray, blue);
     overflow: hidden;
+    clip-path: polygon(0 0, 100% 0, 100% 65%, 0% 100%);
 }
 .home_container{
     height: calc(100hv - var(--header-height));
@@ -219,6 +221,10 @@ img{
     height: 100%;
     top: 70px;
     clip-path: polygon(35% 0%, 100% 0%, 75% 100%, 0% 100%);
+}
+.about_section{
+    background-image: linear-gradient( gray, darkgray, white);
+    clip-path: polygon(0 51%, 100% 0, 100% 100%, 0 99%);
 }
 .about_container{
     justify-items: center;
