@@ -182,7 +182,7 @@ img{
     position: relative;
     background-image: linear-gradient( gray, darkgray, blue);
     overflow: hidden;
-    clip-path: polygon(0 0, 100% 0, 100% 65%, 0% 100%);
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 65%, 0% 100%);
 }
 .home_container{
     height: calc(100hv - var(--header-height));
@@ -224,7 +224,7 @@ img{
 }
 .about_section{
     background-image: linear-gradient( gray, darkgray, white);
-    clip-path: polygon(0 51%, 100% 0, 100% 100%, 0 99%);
+    -webkit-clip-path: polygon(0 5%, 100% 0, 100% 98%, 0% 100%);
 }
 .about_container{
     justify-items: center;
