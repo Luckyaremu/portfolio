@@ -470,6 +470,6 @@ img{
         height: 100%;
     }
     .home_scroll-link{
-        padding-top: var(--mb-4);
+        padding-top: 50px;
     }
 }
