@@ -237,7 +237,11 @@ img{
     width: 120px;
     height: 150px;
     overflow: hidden;
-    -webkit-clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
 }
 .about_img img {
     width: 100px;
