@@ -224,7 +224,7 @@ img{
 }
 .about_section{
     background-image: linear-gradient( gray, darkgray, white);
-    -webkit-clip-path: polygon(0 3%, 100% 0, 100% 98%, 0% 100%);
+    -webkit-clip-path: polygon(0 4%, 100% 0%, 100% 78%, 0% 100%);
 }
 .about_container{
     justify-items: center;
@@ -237,7 +237,7 @@ img{
     width: 120px;
     height: 150px;
     overflow: hidden;
-    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+    -webkit-clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
 }
 .about_img img {
     width: 100px;
