@@ -356,10 +356,10 @@ img{
     border: none;
     outline: none;
     cursor: pointer;
-    -webkit-border-radius:;
-    -moz-border-radius:;
-    -ms-border-radius:;
-    -o-border-radius:;
+    -webkit-border-radius: .5rem;
+    -moz-border-radius: .5rem;
+    -ms-border-radius: .5rem;
+    -o-border-radius: .5rem;
 }
 .contact_section{
     background-image: linear-gradient(darkgray, white);
@@ -547,4 +547,6 @@ img{
 .contact_section{
     text-align: center;
 }
+.project_link-name {
+    font-size: var(--mb-2);
 }
