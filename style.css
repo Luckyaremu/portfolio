@@ -550,3 +550,6 @@ img{
 .project_link-name {
     font-size: var(--mb-2);
 }
+.sub-project_link{
+    padding-bottom: var(--mb-4);
+}
