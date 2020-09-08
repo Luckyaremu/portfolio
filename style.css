@@ -353,6 +353,7 @@ img{
     padding: 0.50rem 0.50rem;
     border-radius: .5rem;
     border: none;
+    padding-top: var(--mb-3);
     outline: none;
     cursor: pointer;
     -webkit-border-radius:;
