@@ -205,8 +205,8 @@ img{
     writing-mode: vertical-lr;
     transform: rotate(-180deg);
     color: var(--white-colo);
-    -webkit-writing-mode: vertical-lr;
-    -ms-writing-mode: vertical-lr;
+    -webkit-writing-mode:;
+    -ms-writing-mode:;
     -webkit-transform: rotate(-180deg);
     -moz-transform: rotate(-180deg);
     -ms-transform: rotate(-180deg);
@@ -223,7 +223,7 @@ img{
 }
 .about_section{
     background-image: linear-gradient( gray, darkgray, white);
-    -webkit-clip-path: polygon(0 4%, 100% 0%, 100% 100%, 1% 98%);
+    -webkit-clip-path: polygon(0 3%, 100% 0, 100% 100%, 0 100%);
 }
 .about_container{
     justify-items: center;
@@ -347,7 +347,10 @@ img{
     border: none;
     outline: none;
     cursor: pointer;
-
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
 }
 .contact_section{
     background-image: linear-gradient(darkgray, white);
