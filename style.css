@@ -197,7 +197,21 @@ img{
 .home_title span{
     text-shadow: 0 20px 25px rgba(0,0,0.5);   
 }
-
+.home_scroll{
+    align-self: flex-end;
+    padding-bottom: var(--mb-4);
+}
+.home_scroll-link{
+    writing-mode: vertical-lr;
+    transform: rotate(-180deg);
+    color: var(--white-colo);
+    -webkit-writing-mode:;
+    -ms-writing-mode:;
+    -webkit-transform: rotate(-180deg);
+    -moz-transform: rotate(-180deg);
+    -ms-transform: rotate(-180deg);
+    -o-transform: rotate(-180deg);
+}
 .home_img{
     position: absolute;
     right: 0;
